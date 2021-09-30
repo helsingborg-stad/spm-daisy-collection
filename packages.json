@@ -32,10 +32,13 @@
             "url": "https://github.com/helsingborg-stad/spm-tts.git"
         },
         {
-            "url": "https://github.com/helsingborg-stad/spm-fft-publisher"
+            "url": "https://github.com/helsingborg-stad/spm-fft-publisher.git"
         },
         {
-            "url": "https://github.com/helsingborg-stad/spm-audio-switchboard"
+            "url": "https://github.com/helsingborg-stad/spm-audio-switchboard.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-assistant.git"
         }
     ]
 }

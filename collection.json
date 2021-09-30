@@ -1,11 +1,9 @@
 {
     "formatVersion": "1.0",
-    "generatedAt": "2021-09-30T12:26:23Z",
+    "generatedAt": "2021-09-30T13:12:59Z",
     "name": "Daisy Swift package collection",
     "packages": [
         {
-            "keywords": [],
-            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-daisy-ui-components/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-daisy-ui-components.git",
             "versions": [
                 {
@@ -54,12 +52,6 @@
             ]
         },
         {
-            "keywords": [],
-            "license": {
-                "name": "MIT",
-                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-app-settings/main/LICENSE"
-            },
-            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-app-settings/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-app-settings.git",
             "versions": [
                 {
@@ -108,8 +100,6 @@
             ]
         },
         {
-            "keywords": [],
-            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-dragoman/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-dragoman.git",
             "versions": [
                 {
@@ -494,7 +484,7 @@
             ]
         },
         {
-            "url": "https://github.com/helsingborg-stad/spm-fft-publisher",
+            "url": "https://github.com/helsingborg-stad/spm-fft-publisher.git",
             "versions": [
                 {
                     "defaultToolsVersion": "5.3",
@@ -542,7 +532,7 @@
             ]
         },
         {
-            "url": "https://github.com/helsingborg-stad/spm-audio-switchboard",
+            "url": "https://github.com/helsingborg-stad/spm-audio-switchboard.git",
             "versions": [
                 {
                     "defaultToolsVersion": "5.3",
@@ -580,6 +570,54 @@
                                 {
                                     "moduleName": "AudioSwitchboard",
                                     "name": "AudioSwitchboard"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.0"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-assistant.git",
+            "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Assistant",
+                            "products": [
+                                {
+                                    "name": "Assistant",
+                                    "targets": [
+                                        "Assistant"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Assistant",
+                                    "name": "Assistant"
                                 }
                             ],
                             "toolsVersion": "5.3"
