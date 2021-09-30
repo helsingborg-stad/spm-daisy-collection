@@ -1,0 +1,38 @@
+{
+    "name": "Daisy Swift package collection",
+    "packages": [
+        {
+            "url": "https://github.com/helsingborg-stad/spm-daisy-ui-components.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-app-settings.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-dragoman.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-text-translator.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-public-calendar.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-shout.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-weather.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-automated-fetcher.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-stt.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-fft-publisher"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-audio-switchboard"
+        }
+    ]
+}
