@@ -29,6 +29,9 @@
             "url": "https://github.com/helsingborg-stad/spm-stt.git"
         },
         {
+            "url": "https://github.com/helsingborg-stad/spm-tts.git"
+        },
+        {
             "url": "https://github.com/helsingborg-stad/spm-fft-publisher"
         },
         {
