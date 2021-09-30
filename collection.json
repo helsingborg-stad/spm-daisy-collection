@@ -1,9 +1,11 @@
 {
     "formatVersion": "1.0",
-    "generatedAt": "2021-09-30T13:12:59Z",
+    "generatedAt": "2021-09-30T13:23:15Z",
     "name": "Daisy Swift package collection",
     "packages": [
         {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-daisy-ui-components/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-daisy-ui-components.git",
             "versions": [
                 {
@@ -52,6 +54,12 @@
             ]
         },
         {
+            "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-app-settings/main/LICENSE"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-app-settings/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-app-settings.git",
             "versions": [
                 {
@@ -100,6 +108,8 @@
             ]
         },
         {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-dragoman/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-dragoman.git",
             "versions": [
                 {
@@ -148,6 +158,8 @@
             ]
         },
         {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-text-translator/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-text-translator.git",
             "versions": [
                 {
@@ -196,6 +208,8 @@
             ]
         },
         {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-public-calendar/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-public-calendar.git",
             "versions": [
                 {
@@ -244,6 +258,8 @@
             ]
         },
         {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-shout/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-shout.git",
             "versions": [
                 {
@@ -292,6 +308,8 @@
             ]
         },
         {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-weather/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-weather.git",
             "versions": [
                 {
@@ -340,6 +358,8 @@
             ]
         },
         {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-automated-fetcher/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-automated-fetcher.git",
             "versions": [
                 {
@@ -388,6 +408,8 @@
             ]
         },
         {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-stt/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-stt.git",
             "versions": [
                 {
@@ -436,6 +458,8 @@
             ]
         },
         {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-tts/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-tts.git",
             "versions": [
                 {
@@ -484,6 +508,8 @@
             ]
         },
         {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-fft-publisher/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-fft-publisher.git",
             "versions": [
                 {
@@ -532,6 +558,8 @@
             ]
         },
         {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-audio-switchboard/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-audio-switchboard.git",
             "versions": [
                 {
@@ -580,6 +608,12 @@
             ]
         },
         {
+            "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-assistant/main/LICENSE"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-assistant/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-assistant.git",
             "versions": [
                 {
