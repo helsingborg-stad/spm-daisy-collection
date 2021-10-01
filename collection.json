@@ -1,6 +1,6 @@
 {
     "formatVersion": "1.0",
-    "generatedAt": "2021-09-30T13:23:15Z",
+    "generatedAt": "2021-10-01T07:03:38Z",
     "name": "Daisy Swift package collection",
     "packages": [
         {
@@ -453,6 +453,49 @@
                             "toolsVersion": "5.3"
                         }
                     },
+                    "version": "0.1.1"
+                },
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "STT",
+                            "products": [
+                                {
+                                    "name": "STT",
+                                    "targets": [
+                                        "STT"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "STT",
+                                    "name": "STT"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
                     "version": "0.1.0"
                 }
             ]
@@ -462,6 +505,49 @@
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-tts/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-tts.git",
             "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "TTS",
+                            "products": [
+                                {
+                                    "name": "TTS",
+                                    "targets": [
+                                        "TTS"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "TTS",
+                                    "name": "TTS"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.1"
+                },
                 {
                     "defaultToolsVersion": "5.3",
                     "manifests": {
@@ -652,6 +738,52 @@
                                 {
                                     "moduleName": "Assistant",
                                     "name": "Assistant"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.0"
+                }
+            ]
+        },
+        {
+            "keywords": [],
+            "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-instagram/main/README.md",
+            "url": "https://github.com/helsingborg-stad/spm-instagram.git",
+            "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Instagram",
+                            "products": [
+                                {
+                                    "name": "Instagram",
+                                    "targets": [
+                                        "Instagram"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Instagram",
+                                    "name": "Instagram"
                                 }
                             ],
                             "toolsVersion": "5.3"

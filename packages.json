@@ -39,6 +39,12 @@
         },
         {
             "url": "https://github.com/helsingborg-stad/spm-assistant.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-ms-cognitive-services.git"
+        },
+        {
+            "url": "https://github.com/helsingborg-stad/spm-instagram.git"
         }
     ]
 }
