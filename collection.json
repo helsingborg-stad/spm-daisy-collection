@@ -1,10 +1,14 @@
 {
     "formatVersion": "1.0",
-    "generatedAt": "2021-10-01T07:03:38Z",
+    "generatedAt": "2021-10-15T09:56:29Z",
     "name": "Daisy Swift package collection",
     "packages": [
         {
             "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-daisy-ui-components/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-daisy-ui-components/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-daisy-ui-components.git",
             "versions": [
@@ -109,9 +113,56 @@
         },
         {
             "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-dragoman/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-dragoman/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-dragoman.git",
             "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Dragoman",
+                            "products": [
+                                {
+                                    "name": "Dragoman",
+                                    "targets": [
+                                        "Dragoman"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Dragoman",
+                                    "name": "Dragoman"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.1"
+                },
                 {
                     "defaultToolsVersion": "5.3",
                     "manifests": {
@@ -159,9 +210,56 @@
         },
         {
             "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-text-translator/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-text-translator/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-text-translator.git",
             "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "TextTranslator",
+                            "products": [
+                                {
+                                    "name": "TextTranslator",
+                                    "targets": [
+                                        "TextTranslator"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "TextTranslator",
+                                    "name": "TextTranslator"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.1"
+                },
                 {
                     "defaultToolsVersion": "5.3",
                     "manifests": {
@@ -209,9 +307,56 @@
         },
         {
             "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-public-calendar/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-public-calendar/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-public-calendar.git",
             "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "PublicCalendar",
+                            "products": [
+                                {
+                                    "name": "PublicCalendar",
+                                    "targets": [
+                                        "PublicCalendar"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "PublicCalendar",
+                                    "name": "PublicCalendar"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.1"
+                },
                 {
                     "defaultToolsVersion": "5.3",
                     "manifests": {
@@ -259,9 +404,56 @@
         },
         {
             "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-shout/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-shout/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-shout.git",
             "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Shout",
+                            "products": [
+                                {
+                                    "name": "Shout",
+                                    "targets": [
+                                        "Shout"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Shout",
+                                    "name": "Shout"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.1"
+                },
                 {
                     "defaultToolsVersion": "5.3",
                     "manifests": {
@@ -309,9 +501,56 @@
         },
         {
             "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-weather/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-weather/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-weather.git",
             "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Weather",
+                            "products": [
+                                {
+                                    "name": "Weather",
+                                    "targets": [
+                                        "Weather"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Weather",
+                                    "name": "Weather"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.1"
+                },
                 {
                     "defaultToolsVersion": "5.3",
                     "manifests": {
@@ -359,9 +598,56 @@
         },
         {
             "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-automated-fetcher/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-automated-fetcher/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-automated-fetcher.git",
             "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "AutomatedFetcher",
+                            "products": [
+                                {
+                                    "name": "AutomatedFetcher",
+                                    "targets": [
+                                        "AutomatedFetcher"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "AutomatedFetcher",
+                                    "name": "AutomatedFetcher"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.1"
+                },
                 {
                     "defaultToolsVersion": "5.3",
                     "manifests": {
@@ -408,7 +694,13 @@
             ]
         },
         {
-            "keywords": [],
+            "keywords": [
+                "hacktoberfest"
+            ],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-stt/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-stt/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-stt.git",
             "versions": [
@@ -453,6 +745,49 @@
                             "toolsVersion": "5.3"
                         }
                     },
+                    "version": "0.1.2"
+                },
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "STT",
+                            "products": [
+                                {
+                                    "name": "STT",
+                                    "targets": [
+                                        "STT"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "STT",
+                                    "name": "STT"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
                     "version": "0.1.1"
                 },
                 {
@@ -502,9 +837,56 @@
         },
         {
             "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-tts/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-tts/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-tts.git",
             "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "TTS",
+                            "products": [
+                                {
+                                    "name": "TTS",
+                                    "targets": [
+                                        "TTS"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "TTS",
+                                    "name": "TTS"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.2"
+                },
                 {
                     "defaultToolsVersion": "5.3",
                     "manifests": {
@@ -595,9 +977,56 @@
         },
         {
             "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-fft-publisher/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-fft-publisher/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-fft-publisher.git",
             "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "FFTPublisher",
+                            "products": [
+                                {
+                                    "name": "FFTPublisher",
+                                    "targets": [
+                                        "FFTPublisher"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "FFTPublisher",
+                                    "name": "FFTPublisher"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.1"
+                },
                 {
                     "defaultToolsVersion": "5.3",
                     "manifests": {
@@ -645,9 +1074,56 @@
         },
         {
             "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-audio-switchboard/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-audio-switchboard/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-audio-switchboard.git",
             "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "AudioSwitchboard",
+                            "products": [
+                                {
+                                    "name": "AudioSwitchboard",
+                                    "targets": [
+                                        "AudioSwitchboard"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "AudioSwitchboard",
+                                    "name": "AudioSwitchboard"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.1"
+                },
                 {
                     "defaultToolsVersion": "5.3",
                     "manifests": {
@@ -749,9 +1225,52 @@
         },
         {
             "keywords": [],
+            "license": {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/helsingborg-stad/spm-instagram/main/LICENSE"
+            },
             "readmeURL": "https://raw.githubusercontent.com/helsingborg-stad/spm-instagram/main/README.md",
             "url": "https://github.com/helsingborg-stad/spm-instagram.git",
             "versions": [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests": {
+                        "5.3": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Instagram",
+                            "products": [
+                                {
+                                    "name": "Instagram",
+                                    "targets": [
+                                        "Instagram"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Instagram",
+                                    "name": "Instagram"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "0.1.1"
+                },
                 {
                     "defaultToolsVersion": "5.3",
                     "manifests": {
