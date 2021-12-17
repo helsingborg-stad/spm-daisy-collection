@@ -1,6 +1,6 @@
 {
     "formatVersion": "1.0",
-    "generatedAt": "2021-11-02T13:08:06Z",
+    "generatedAt": "2021-12-17T11:48:12Z",
     "name": "Daisy Swift package collection",
     "packages": [
         {
@@ -13,9 +13,9 @@
             "url": "https://github.com/helsingborg-stad/spm-daisy-ui-components.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.5",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.5": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -50,7 +50,50 @@
                                     "name": "DaisyUIComponents"
                                 }
                             ],
-                            "toolsVersion": "5.5"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.1.1"
+                },
+                {
+                    "defaultToolsVersion": "5.5.0",
+                    "manifests": {
+                        "5.5.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "DaisyUIComponents",
+                            "products": [
+                                {
+                                    "name": "DaisyUIComponents",
+                                    "targets": [
+                                        "DaisyUIComponents"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "DaisyUIComponents",
+                                    "name": "DaisyUIComponents"
+                                }
+                            ],
+                            "toolsVersion": "5.5.0"
                         }
                     },
                     "version": "0.1.0"
@@ -67,9 +110,9 @@
             "url": "https://github.com/helsingborg-stad/spm-app-settings.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -104,15 +147,58 @@
                                     "name": "AppSettings"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.2.1"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "AppSettings",
+                            "products": [
+                                {
+                                    "name": "AppSettings",
+                                    "targets": [
+                                        "AppSettings"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "AppSettings",
+                                    "name": "AppSettings"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.2.0"
                 },
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.3.0",
                     "manifests": {
-                        "5.3": {
+                        "5.3.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -147,7 +233,7 @@
                                     "name": "AppSettings"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.1.0"
@@ -164,9 +250,9 @@
             "url": "https://github.com/helsingborg-stad/spm-dragoman.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -201,15 +287,15 @@
                                     "name": "Dragoman"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
                         }
                     },
-                    "version": "0.1.4"
+                    "version": "0.1.9"
                 },
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -244,15 +330,15 @@
                                     "name": "Dragoman"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
                         }
                     },
-                    "version": "0.1.3"
+                    "version": "0.1.8"
                 },
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -287,10 +373,10 @@
                                     "name": "Dragoman"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
                         }
                     },
-                    "version": "0.1.2"
+                    "version": "0.1.7"
                 }
             ]
         },
@@ -304,9 +390,9 @@
             "url": "https://github.com/helsingborg-stad/spm-text-translator.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -341,15 +427,58 @@
                                     "name": "TextTranslator"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.2.1"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "TextTranslator",
+                            "products": [
+                                {
+                                    "name": "TextTranslator",
+                                    "targets": [
+                                        "TextTranslator"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "TextTranslator",
+                                    "name": "TextTranslator"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.2.0"
                 },
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.3.0",
                     "manifests": {
-                        "5.3": {
+                        "5.3.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -384,53 +513,10 @@
                                     "name": "TextTranslator"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.1.1"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "TextTranslator",
-                            "products": [
-                                {
-                                    "name": "TextTranslator",
-                                    "targets": [
-                                        "TextTranslator"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "TextTranslator",
-                                    "name": "TextTranslator"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.1.0"
                 }
             ]
         },
@@ -444,9 +530,9 @@
             "url": "https://github.com/helsingborg-stad/spm-public-calendar.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -481,96 +567,96 @@
                                     "name": "PublicCalendar"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.1.5"
+                },
+                {
+                    "defaultToolsVersion": "5.5.0",
+                    "manifests": {
+                        "5.5.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "PublicCalendar",
+                            "products": [
+                                {
+                                    "name": "PublicCalendar",
+                                    "targets": [
+                                        "PublicCalendar"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "PublicCalendar",
+                                    "name": "PublicCalendar"
+                                }
+                            ],
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.1.4"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "PublicCalendar",
+                            "products": [
+                                {
+                                    "name": "PublicCalendar",
+                                    "targets": [
+                                        "PublicCalendar"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "PublicCalendar",
+                                    "name": "PublicCalendar"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.1.3"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "PublicCalendar",
-                            "products": [
-                                {
-                                    "name": "PublicCalendar",
-                                    "targets": [
-                                        "PublicCalendar"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "PublicCalendar",
-                                    "name": "PublicCalendar"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.1.2"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "PublicCalendar",
-                            "products": [
-                                {
-                                    "name": "PublicCalendar",
-                                    "targets": [
-                                        "PublicCalendar"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "PublicCalendar",
-                                    "name": "PublicCalendar"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.1.1"
                 }
             ]
         },
@@ -584,9 +670,9 @@
             "url": "https://github.com/helsingborg-stad/spm-shout.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -621,53 +707,96 @@
                                     "name": "Shout"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.1.3"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Shout",
+                            "products": [
+                                {
+                                    "name": "Shout",
+                                    "targets": [
+                                        "Shout"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Shout",
+                                    "name": "Shout"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
+                        }
+                    },
+                    "version": "0.1.2"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Shout",
+                            "products": [
+                                {
+                                    "name": "Shout",
+                                    "targets": [
+                                        "Shout"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Shout",
+                                    "name": "Shout"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.1.1"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "Shout",
-                            "products": [
-                                {
-                                    "name": "Shout",
-                                    "targets": [
-                                        "Shout"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "Shout",
-                                    "name": "Shout"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.1.0"
                 }
             ]
         },
@@ -681,9 +810,9 @@
             "url": "https://github.com/helsingborg-stad/spm-weather.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -718,96 +847,96 @@
                                     "name": "Weather"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.2.2"
+                },
+                {
+                    "defaultToolsVersion": "5.5.0",
+                    "manifests": {
+                        "5.5.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Weather",
+                            "products": [
+                                {
+                                    "name": "Weather",
+                                    "targets": [
+                                        "Weather"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Weather",
+                                    "name": "Weather"
+                                }
+                            ],
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.2.1"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Weather",
+                            "products": [
+                                {
+                                    "name": "Weather",
+                                    "targets": [
+                                        "Weather"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Weather",
+                                    "name": "Weather"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.2.0"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "Weather",
-                            "products": [
-                                {
-                                    "name": "Weather",
-                                    "targets": [
-                                        "Weather"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "Weather",
-                                    "name": "Weather"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.1.3"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "Weather",
-                            "products": [
-                                {
-                                    "name": "Weather",
-                                    "targets": [
-                                        "Weather"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "Weather",
-                                    "name": "Weather"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.1.2"
                 }
             ]
         },
@@ -821,9 +950,9 @@
             "url": "https://github.com/helsingborg-stad/spm-automated-fetcher.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -858,15 +987,58 @@
                                     "name": "AutomatedFetcher"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.1.4"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "AutomatedFetcher",
+                            "products": [
+                                {
+                                    "name": "AutomatedFetcher",
+                                    "targets": [
+                                        "AutomatedFetcher"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "AutomatedFetcher",
+                                    "name": "AutomatedFetcher"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.1.3"
                 },
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.3.0",
                     "manifests": {
-                        "5.3": {
+                        "5.3.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -901,53 +1073,10 @@
                                     "name": "AutomatedFetcher"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.1.2"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "AutomatedFetcher",
-                            "products": [
-                                {
-                                    "name": "AutomatedFetcher",
-                                    "targets": [
-                                        "AutomatedFetcher"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "AutomatedFetcher",
-                                    "name": "AutomatedFetcher"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.1.1"
                 }
             ]
         },
@@ -963,9 +1092,9 @@
             "url": "https://github.com/helsingborg-stad/spm-stt.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -1000,96 +1129,96 @@
                                     "name": "STT"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.2.3"
+                },
+                {
+                    "defaultToolsVersion": "5.5.0",
+                    "manifests": {
+                        "5.5.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "STT",
+                            "products": [
+                                {
+                                    "name": "STT",
+                                    "targets": [
+                                        "STT"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "STT",
+                                    "name": "STT"
+                                }
+                            ],
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.2.2"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "STT",
+                            "products": [
+                                {
+                                    "name": "STT",
+                                    "targets": [
+                                        "STT"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "STT",
+                                    "name": "STT"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.2.1"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "STT",
-                            "products": [
-                                {
-                                    "name": "STT",
-                                    "targets": [
-                                        "STT"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "STT",
-                                    "name": "STT"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.2.0"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "STT",
-                            "products": [
-                                {
-                                    "name": "STT",
-                                    "targets": [
-                                        "STT"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "STT",
-                                    "name": "STT"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.1.2"
                 }
             ]
         },
@@ -1103,9 +1232,9 @@
             "url": "https://github.com/helsingborg-stad/spm-tts.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -1140,96 +1269,96 @@
                                     "name": "TTS"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.2.2"
+                },
+                {
+                    "defaultToolsVersion": "5.5.0",
+                    "manifests": {
+                        "5.5.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "TTS",
+                            "products": [
+                                {
+                                    "name": "TTS",
+                                    "targets": [
+                                        "TTS"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "TTS",
+                                    "name": "TTS"
+                                }
+                            ],
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.2.1"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "TTS",
+                            "products": [
+                                {
+                                    "name": "TTS",
+                                    "targets": [
+                                        "TTS"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "TTS",
+                                    "name": "TTS"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.2.0"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "TTS",
-                            "products": [
-                                {
-                                    "name": "TTS",
-                                    "targets": [
-                                        "TTS"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "TTS",
-                                    "name": "TTS"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.1.8"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "TTS",
-                            "products": [
-                                {
-                                    "name": "TTS",
-                                    "targets": [
-                                        "TTS"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "TTS",
-                                    "name": "TTS"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.1.7"
                 }
             ]
         },
@@ -1243,9 +1372,9 @@
             "url": "https://github.com/helsingborg-stad/spm-fft-publisher.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -1280,15 +1409,58 @@
                                     "name": "FFTPublisher"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.1.2"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "FFTPublisher",
+                            "products": [
+                                {
+                                    "name": "FFTPublisher",
+                                    "targets": [
+                                        "FFTPublisher"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "FFTPublisher",
+                                    "name": "FFTPublisher"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.1.1"
                 },
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.3.0",
                     "manifests": {
-                        "5.3": {
+                        "5.3.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -1323,7 +1495,7 @@
                                     "name": "FFTPublisher"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.1.0"
@@ -1340,9 +1512,9 @@
             "url": "https://github.com/helsingborg-stad/spm-audio-switchboard.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -1377,15 +1549,58 @@
                                     "name": "AudioSwitchboard"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.1.3"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "AudioSwitchboard",
+                            "products": [
+                                {
+                                    "name": "AudioSwitchboard",
+                                    "targets": [
+                                        "AudioSwitchboard"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "AudioSwitchboard",
+                                    "name": "AudioSwitchboard"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.1.2"
                 },
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.3.0",
                     "manifests": {
-                        "5.3": {
+                        "5.3.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -1420,53 +1635,10 @@
                                     "name": "AudioSwitchboard"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.1.1"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "AudioSwitchboard",
-                            "products": [
-                                {
-                                    "name": "AudioSwitchboard",
-                                    "targets": [
-                                        "AudioSwitchboard"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "AudioSwitchboard",
-                                    "name": "AudioSwitchboard"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.1.0"
                 }
             ]
         },
@@ -1480,9 +1652,9 @@
             "url": "https://github.com/helsingborg-stad/spm-assistant.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "macos",
@@ -1517,96 +1689,96 @@
                                     "name": "Assistant"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.2.4"
+                },
+                {
+                    "defaultToolsVersion": "5.5.0",
+                    "manifests": {
+                        "5.5.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Assistant",
+                            "products": [
+                                {
+                                    "name": "Assistant",
+                                    "targets": [
+                                        "Assistant"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Assistant",
+                                    "name": "Assistant"
+                                }
+                            ],
+                            "toolsVersion": "5.5.0"
+                        }
+                    },
+                    "version": "0.2.3"
+                },
+                {
+                    "defaultToolsVersion": "5.3.0",
+                    "manifests": {
+                        "5.3.0": {
+                            "minimumPlatformVersions": [
+                                {
+                                    "name": "macos",
+                                    "version": "10.15"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Assistant",
+                            "products": [
+                                {
+                                    "name": "Assistant",
+                                    "targets": [
+                                        "Assistant"
+                                    ],
+                                    "type": {
+                                        "library": [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets": [
+                                {
+                                    "moduleName": "Assistant",
+                                    "name": "Assistant"
+                                }
+                            ],
+                            "toolsVersion": "5.3.0"
                         }
                     },
                     "version": "0.2.2"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "Assistant",
-                            "products": [
-                                {
-                                    "name": "Assistant",
-                                    "targets": [
-                                        "Assistant"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "Assistant",
-                                    "name": "Assistant"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.2.1"
-                },
-                {
-                    "defaultToolsVersion": "5.3",
-                    "manifests": {
-                        "5.3": {
-                            "minimumPlatformVersions": [
-                                {
-                                    "name": "macos",
-                                    "version": "10.15"
-                                },
-                                {
-                                    "name": "ios",
-                                    "version": "13.0"
-                                },
-                                {
-                                    "name": "tvos",
-                                    "version": "13.0"
-                                }
-                            ],
-                            "packageName": "Assistant",
-                            "products": [
-                                {
-                                    "name": "Assistant",
-                                    "targets": [
-                                        "Assistant"
-                                    ],
-                                    "type": {
-                                        "library": [
-                                            "automatic"
-                                        ]
-                                    }
-                                }
-                            ],
-                            "targets": [
-                                {
-                                    "moduleName": "Assistant",
-                                    "name": "Assistant"
-                                }
-                            ],
-                            "toolsVersion": "5.3"
-                        }
-                    },
-                    "version": "0.2.0"
                 }
             ]
         },
@@ -1620,9 +1792,9 @@
             "url": "https://github.com/helsingborg-stad/spm-instagram.git",
             "versions": [
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "ios",
@@ -1653,15 +1825,15 @@
                                     "name": "Instagram"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
                         }
                     },
-                    "version": "0.1.2"
+                    "version": "0.1.6"
                 },
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.5.0",
                     "manifests": {
-                        "5.3": {
+                        "5.5.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "ios",
@@ -1692,15 +1864,15 @@
                                     "name": "Instagram"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.5.0"
                         }
                     },
-                    "version": "0.1.1"
+                    "version": "0.1.5"
                 },
                 {
-                    "defaultToolsVersion": "5.3",
+                    "defaultToolsVersion": "5.3.0",
                     "manifests": {
-                        "5.3": {
+                        "5.3.0": {
                             "minimumPlatformVersions": [
                                 {
                                     "name": "ios",
@@ -1731,10 +1903,10 @@
                                     "name": "Instagram"
                                 }
                             ],
-                            "toolsVersion": "5.3"
+                            "toolsVersion": "5.3.0"
                         }
                     },
-                    "version": "0.1.0"
+                    "version": "0.1.4"
                 }
             ]
         }
